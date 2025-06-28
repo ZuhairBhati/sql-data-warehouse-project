@@ -56,7 +56,7 @@ For more details, refer to [docs/requirements.md](docs/requirements.md).
 
 ## 📂 Repository Structure
 ```
-data-warehouse-project/
+sql-data-warehouse-project/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
@@ -72,6 +72,21 @@ data-warehouse-project/
 │   ├── bronze/                         # Scripts for extracting and loading raw data
 │   ├── silver/                         # Scripts for cleaning and transforming data
 │   ├── gold/                           # Scripts for creating analytical models
+│
+├── analytics_queries/                  # SQL scripts for EDA and advance analytics
+│   ├── 01_database_exploration                         
+│   ├── 02_dimensions_exploration                        
+│   ├── 03_date_range_exploration
+│   ├── 04_measures_exploration
+│   ├── 05_magnitude_analysis
+│   ├── 06_ranking_analysis
+│   ├── 07_change_over_time_analysis
+│   ├── 08_cumulative_analysis
+│   ├── 09_performance_analysis
+│   ├── 10_part_to_whole_analysis
+│   ├── 11_data_segmentation
+│   ├── 12_report_customers
+│   ├── 13_report_products                           
 │
 ├── tests/                              # Test scripts and quality files
 │
